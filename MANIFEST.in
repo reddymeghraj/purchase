@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include purchase *.css
+recursive-include purchase *.csv
+recursive-include purchase *.html
+recursive-include purchase *.ico
+recursive-include purchase *.js
+recursive-include purchase *.json
+recursive-include purchase *.md
+recursive-include purchase *.png
+recursive-include purchase *.py
+recursive-include purchase *.svg
+recursive-include purchase *.txt
+recursive-exclude purchase *.pyc

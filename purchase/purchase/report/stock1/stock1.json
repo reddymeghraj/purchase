@@ -1,0 +1,18 @@
+{
+ "add_total_row": 0, 
+ "apply_user_permissions": 1, 
+ "creation": "2015-01-31 10:10:08.366368", 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "is_standard": "Yes", 
+ "modified": "2015-01-31 10:59:44.351393", 
+ "modified_by": "Administrator", 
+ "module": "Purchase", 
+ "name": "Stock1", 
+ "owner": "Administrator", 
+ "query": "select `tabStock`.warehouse_name as \"Warehouse Name:Data/Warehouse Name:200\",`tabStock`.brand_name as \"Brand Name:Data/Brand Name:150\",`tabStock`.item_name as \"Item:Data/Item:150\",`tabStock`.quantity as \"Quantity:Int/Quantity:100\" from `tabStock`;", 
+ "ref_doctype": "Add Item", 
+ "report_name": "Stock1", 
+ "report_type": "Query Report"
+}
